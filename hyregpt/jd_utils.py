@@ -30,6 +30,9 @@ Below are specific details about the job -
 
 6. Job Purpose: {job_purpose}
 
+7. Required skills/traits: Following is a bulleted list of skills/traits that must be present in a potential candidate. **Make sure that you add all these skills/traits in the job description.** You may add other skills that you think are relevant to the role of {job_title}. But pls refrain from adding information that is not provided by the user.
+{required_traits}
+
 
 ### OUTPUT FORMAT INSTRUCTIONS
 
@@ -62,7 +65,7 @@ H3 Experience
 
 H3 Knowledge and Skills
 
-H3 Preferred Qualifications
+H2 Preferred Qualifications
 
 H2 Working Conditions
 

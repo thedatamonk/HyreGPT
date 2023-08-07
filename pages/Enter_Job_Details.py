@@ -18,6 +18,8 @@ with st.form(key='job_details_form'):
 
     job_purpose = st.text_area(label='Job Purpose')  # Using text_area for possibly longer input
 
+    required_traits = st.text_area(label='Required Traits', placeholder="Enter each trait as a bullet..")
+
     file_name = st.text_input(label='File name', placeholder="amazon_sde1.json")
 
     # Create a submit button
@@ -33,7 +35,8 @@ if submit_button:
         "role_type": role_type,
         "job_location": job_location,
         "compensation": f"{compensation} {currency}",
-        "job_purpose": job_purpose
+        "job_purpose": job_purpose,
+        "required_traits": required_traits
     }
     
     
